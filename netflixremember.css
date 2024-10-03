@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body>img {
+
+    height: 100vh;
+    margin-left: 770px;
+}
+
+.logo>a>img {
+    width: 140px;
+    margin-left: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0.5px;
+    left: 1px;
+}
+
+.signupsy {
+
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-weight: 600;
+    font-size: 15.5px;
+
+}
+
+.signupsy>a {
+    color: rgb(229, 9, 20);
+    text-decoration: none;
+}
+
+.signupsy>a:hover {
+    color: rgb(229, 9, 20);
+    text-decoration: underline;
+}
+
+.continer {
+    border: 1px solid;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.content {
+
+    height: 450px;
+    width: 373px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content1 {
+    height: 450px;
+    width: 375px;
+    background-color: #f3f3f3;
+    padding: 30px;
+
+
+}
+
+.box1>h1 {
+    font-size: 26px;
+    font-weight: lighter;
+    font-weight: 500;
+    color: #333;
+}
+
+.box2 {
+    font-size: 12.5px;
+    color: #333;
+    margin: 11px 0px;
+}
+
+.box3>label {
+    font-size: 12.5px;
+    color: #8e8d8d;
+}
+
+.box3>input {
+    width: 99%;
+    height: 40px;
+    padding: 0px 0px 0px 13px;
+    color: #333;
+    margin: 0px 0px 22px;
+}
+
+.box4>label {
+    font-size: 12.5px;
+    color: #8e8d8d;
+}
+
+.box4>input {
+    width: 99%;
+    height: 40px;
+    padding: 0px 0px 0px 13px;
+    color: #333;
+    margin: 0px 0px 22px;
+}
+
+.box5>label {
+    font-size: 12.5px;
+    color: #8e8d8d;
+}
+
+.box5>input {
+    width: 99%;
+    height: 40px;
+    padding: 0px 0px 0px 13px;
+    color: #333;
+    margin: 0px 0px 22px;
+}
+
+.btn {
+
+    height: 40px;
+    width: 260px;
+    display: flex;
+
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.bttn1 {
+    height: 30px;
+    width: 80px;
+    margin: 0px 7px 0px 0px;
+
+    font-size: 10.5px;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: #0080ff53;
+    border: 1px solid #0080ff1c;
+    border-radius: 2px;
+}
+
+.bttn2 {
+    height: 30px;
+    width: 70px;
+    font-size: 10.5px;
+    font-weight: 400;
+    background-color: rgb(220, 217, 217);
+    border: 1px solid #f3f3f3;
+    border-radius: 2PX;
+}
+
+.bttn2>a {
+    height: 30px;
+    width: 70px;
+    font-size: 10.5px;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+}
+
+.extrainfo {
+    height: 20px;
+    width: 379px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 40px;
+    color: darkgrey;
+    font-size: 12px;
+}
+
+.extrainfo>a {
+    color: darkgrey;
+    font-size: 12px;
+}
